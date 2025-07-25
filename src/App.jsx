@@ -1,6 +1,6 @@
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
-import Mainroutes from "./routes/mainroutes";
+import Mainroutes from "./routes/Mainroutes";
 const app = ()=>{
   return (
     <div>
