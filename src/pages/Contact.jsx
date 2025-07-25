@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Contact = () => {
+const Contacts = () => {
   return (
     <section className="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20 min-h-screen">
       <div className="max-w-6xl mx-auto px-6">
@@ -71,4 +71,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contacts;
