@@ -19,10 +19,10 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-blue-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
+        
         <div className="text-white font-bold text-2xl tracking-wide">E-Learning</div>
 
-        {/* Desktop Navigation */}
+        
         <div className="hidden md:flex space-x-8 items-center">
           <NavLink to="/" className={navLinkStyle}>Home</NavLink>
           <NavLink to="/about" className={navLinkStyle}>About</NavLink>
@@ -50,13 +50,13 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu Slide-in */}
+      
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-blue-800 text-white z-50 shadow-2xl transform transition-transform duration-300 ease-in-out ${
           menuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        {/* Close Button */}
+        
         <button
           onClick={closeMenu}
           className="absolute top-5 right-5 text-white focus:outline-none"
@@ -67,7 +67,7 @@ const Navbar = () => {
           </svg>
         </button>
 
-        {/* Mobile Links */}
+        
         <nav className="mt-20 flex flex-col items-start space-y-6 px-6 text-lg">
           <NavLink to="/" onClick={closeMenu} className="hover:text-blue-300 transition">Home</NavLink>
           <NavLink to="/about" onClick={closeMenu} className="hover:text-blue-300 transition">About</NavLink>
@@ -83,7 +83,7 @@ const Navbar = () => {
         </nav>
       </div>
 
-      {/* Background overlay */}
+      
       {menuOpen && (
         <div
           onClick={closeMenu}

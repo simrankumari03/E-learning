@@ -4,7 +4,7 @@ const Contacts = () => {
   return (
     <section className="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20 min-h-screen">
       <div className="max-w-6xl mx-auto px-6">
-        {/* Header */}
+        
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-blue-800 mb-4">Get in Touch</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -13,7 +13,7 @@ const Contacts = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 items-start">
-          {/* Contact Form */}
+          
           <div className="bg-white p-8 rounded-xl shadow-md border border-blue-100">
             <form className="flex flex-col gap-5">
               <div>
@@ -47,21 +47,21 @@ const Contacts = () => {
             </form>
           </div>
 
-          {/* Contact Info */}
+          
           <div className="bg-white p-8 rounded-xl shadow-md border border-blue-100">
             <h3 className="text-2xl font-semibold text-blue-700 mb-6">Contact Information</h3>
             <ul className="space-y-4 text-gray-700">
               <li>
-                📧 <strong>Email:</strong> support@elearning.com
+                 <strong>Email:</strong> support@elearning.com
               </li>
               <li>
-                📞 <strong>Phone:</strong> 8976579878
+                 <strong>Phone:</strong> 8976579878
               </li>
               <li>
-                🏢 <strong>Address:</strong> Salt lake city
+                 <strong>Address:</strong> Salt lake city
               </li>
               <li>
-                🕒 <strong>Hours:</strong> Mon - Fri, 9am - 6pm 
+                 <strong>Hours:</strong> Mon - Fri, 9am - 6pm 
               </li>
             </ul>
           </div>

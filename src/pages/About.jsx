@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="bg-gradient-to-br from-blue-50 via-white to-blue-100 text-gray-800 py-20">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Hero Section */}
+        
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold mb-4">About E-Learning</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -13,11 +13,11 @@ const About = () => {
           </p>
         </div>
 
-        {/* Mission, Vision, Values */}
+        
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
             <h3 className="text-2xl font-bold mb-3 text-blue-700">
-              🌟 Our Mission
+               Our Mission
             </h3>
             <p>
               To deliver high-quality, affordable education to anyone, anywhere.
@@ -27,7 +27,7 @@ const About = () => {
           </div>
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
             <h3 className="text-2xl font-bold mb-3 text-blue-700">
-              🚀 Our Vision
+               Our Vision
             </h3>
             <p>
               To be the world’s most learner-centric platform, trusted for
@@ -37,7 +37,7 @@ const About = () => {
           </div>
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
             <h3 className="text-2xl font-bold mb-3 text-blue-700">
-              💡 Our Values
+              Our Values
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700">
               <li>Accessibility & Inclusion</li>
@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Stats Section */}
+        
         <div className="bg-white rounded-xl shadow p-10 mb-20 grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 text-center">
           <div>
             <h4 className="text-4xl font-bold text-blue-600">500K+</h4>
@@ -68,7 +68,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Call to Action */}
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-4">
             Join Our Global Learning Community

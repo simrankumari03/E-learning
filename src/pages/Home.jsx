@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <main className="bg-white text-gray-800">
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-24">
         <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left">
@@ -30,24 +30,24 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
+      
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-14">Why Choose Us?</h2>
           <div className="grid md:grid-cols-3 gap-10">
             {[
               {
-                icon: '🧠',
+                
                 title: 'Expert Mentors',
                 desc: 'Learn from industry leaders and experienced instructors.',
               },
               {
-                icon: '⏰',
+                
                 title: 'Flexible Schedule',
                 desc: 'Access content anytime, on any device, at your own pace.',
               },
               {
-                icon: '🏆',
+                
                 title: 'Recognized Certification',
                 desc: 'Earn certificates that add value to your career profile.',
               },
@@ -65,7 +65,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Categories Preview */}
+      
       <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-14">Popular Categories</h2>
@@ -89,32 +89,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-14">What Our Students Say</h2>
-          <div className="grid md:grid-cols-2 gap-10">
-            {[
-              {
-                name: 'Aarav Mehta',
-                text: 'E-Learning helped me land my first job in tech! The courses are well-structured and beginner-friendly.',
-              },
-              {
-                name: 'Sanya Sharma',
-                text: 'The design course was amazing! The mentors gave real-world advice and the projects helped build my portfolio.',
-              },
-            ].map((review, i) => (
-              <div
-                key={i}
-                className="bg-blue-50 p-6 rounded-xl shadow-md hover:shadow-lg transition"
-              >
-                <p className="italic text-gray-700 mb-4">"{review.text}"</p>
-                <h5 className="font-semibold text-blue-800">{review.name}</h5>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
+      
 
       {/* Call to Action */}
       <section className="py-20 bg-gray-100 text-black text-center mb-10">
