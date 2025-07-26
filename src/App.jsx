@@ -1,6 +1,6 @@
 import Footer from "./component/Footer.jsx"
 import Navbar from "./component/Navbar.jsx";
-import Mainroutes from "./routes/mainroutes.jsx";
+import Mainroutes from "./routes/Mainroutes.jsx";
 import React from 'react';  
 const App = () => {
   return (
