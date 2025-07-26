@@ -5,8 +5,8 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "../pages/Home";
 import About from "../pages/About";
-import Course from "../pages/course"; 
-import Contact from "../pages/contact";
+import Course from "../pages/Course"; 
+import Contact from "../pages/Contact";
 
 const MainRoutes = () => {
   return (
